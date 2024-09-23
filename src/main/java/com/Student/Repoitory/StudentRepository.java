@@ -9,7 +9,7 @@ import com.Student.entity.Student;
 	public interface StudentRepository extends JpaRepository<Student, Integer> {
 		
 		@Query(value="select attendance from student.student where rollnum =?",nativeQuery=true)
-		public int getAtten(int a);
+		public int getAtten(int b);
 
 
 }

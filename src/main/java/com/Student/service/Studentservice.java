@@ -33,8 +33,8 @@ public class  Studentservice{
 		public String deletestudent(int a) {
 			return vd.deletestudent(a);
 		}
-		public int getAtten(int a) {
-			return vd.getAtten(a);
+		public int getAtten(int b) {
+			return vd.getAtten(b);
 		}
 }
 		

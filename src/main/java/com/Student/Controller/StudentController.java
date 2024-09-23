@@ -41,8 +41,10 @@ public class StudentController {
 	public String deletestudent(@PathVariable int a) {
 		return vs.deletestudent(a);
 	}
-	@GetMapping(value="/getAtten/{a}")
-	public int getAtten(@PathVariable int a) {
-		return vs.getAtten(a);
+	@GetMapping(value="/getAtten/{b}")
+	public int getAtten(@PathVariable int b) {
+		return vs.getAtten(b);
 	}
 }
+
+

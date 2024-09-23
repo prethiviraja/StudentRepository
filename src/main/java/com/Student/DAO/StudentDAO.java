@@ -32,8 +32,8 @@ public class  StudentDAO{
 		vr.deleteById(a);
 		return "Deleted";
 	}
-	public int getAtten(int a) {
-		return vr.getAtten(a);
+	public int getAtten(int b) {
+		return vr.getAtten(b);
 	}
 }
 	
